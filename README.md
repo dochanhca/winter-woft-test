@@ -1,16 +1,10 @@
-# winter_woft_test
+![part1](https://github.com/dochanhca/winter-woft-test/assets/16554985/591f936d-613a-4fdc-8aef-dc6b3e112a3c)# winter_woft_test
 
-A new Flutter project.
+# Video
+![Part1](part1.gif)
+![part2](part2.gif)
 
-## Getting Started
+#Test file
+- pls download winter-woft-test.apk to test on android device.
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
