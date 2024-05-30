@@ -67,13 +67,12 @@ class _MyHomePageState extends State<MyHomePage> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             OutlinedButton(
-                onPressed: () => Navigator.of(context)
-                    .push(MaterialPageRoute(builder: (_) => const DrawingPage())),
+                onPressed: () => Navigator.of(context).push(
+                    MaterialPageRoute(builder: (_) => const DrawingPage())),
                 child: Text('Part 1',
                     style: Theme.of(context).textTheme.headlineMedium)),
             OutlinedButton(
-                onPressed: () =>
-                    Navigator.of(context)
+                onPressed: () => Navigator.of(context)
                     .push(MaterialPageRoute(builder: (_) => AnimationPage())),
                 child: Text('Part 2',
                     style: Theme.of(context).textTheme.headlineMedium)),

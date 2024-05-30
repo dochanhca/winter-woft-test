@@ -141,7 +141,7 @@ class _FlyAnimationState extends State<FlyAnimation> {
     await Future.delayed(animationModel.duration);
 
     animationModel.curve = Curves.linear;
-    animationModel.duration = Duration(milliseconds: heartFlyDuration);
+    animationModel.duration = const Duration(milliseconds: heartFlyDuration);
 
     animationModel.imageDestPoint = Offset(
         widget.heartCountKey.globalPaintBounds!.top,

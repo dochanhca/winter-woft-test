@@ -118,7 +118,7 @@ class ToolBar extends HookWidget {
                     ),
                   ),
                 ),
-                Text(
+                const Text(
                   'selected color',
                   style: TextStyle(fontWeight: FontWeight.bold),
                 ),
@@ -128,8 +128,7 @@ class ToolBar extends HookWidget {
                   decoration: BoxDecoration(
                     color: selectedColor.value,
                     border: Border.all(color: Colors.blue, width: 1.5),
-                    borderRadius:
-                        const BorderRadius.all(Radius.circular(5)),
+                    borderRadius: const BorderRadius.all(Radius.circular(5)),
                   ),
                 )
               ],
@@ -171,7 +170,7 @@ class ToolBar extends HookWidget {
                       builder: (_, canRedo, __) {
                         return TextButton(
                           onPressed:
-                          canRedo ? () => undoRedoStack.value.redo() : null,
+                              canRedo ? () => undoRedoStack.value.redo() : null,
                           child: const Text('Redo'),
                         );
                       },

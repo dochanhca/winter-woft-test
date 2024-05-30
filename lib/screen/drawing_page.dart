@@ -1,5 +1,3 @@
-import 'dart:ui';
-
 import 'package:flutter/material.dart' hide Image;
 import 'package:flutter_hooks/flutter_hooks.dart';
 
@@ -65,9 +63,13 @@ class DrawingPage extends HookWidget {
             ),
             GestureDetector(
               onTap: () => Navigator.of(context).pop(),
-              child: const SizedBox(width: 48, height: 48, child: Center(
-                child: Icon(Icons.arrow_back),
-              ),),
+              child: const SizedBox(
+                width: 48,
+                height: 48,
+                child: Center(
+                  child: Icon(Icons.arrow_back),
+                ),
+              ),
             )
           ],
         ),
